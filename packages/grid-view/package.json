@@ -11,7 +11,7 @@
   },
   "panels": {
     "panel": {
-      "view": "panel/panel.html",
+      "frame": "panel/panel.html",
       "type": "dockable",
       "title": "Grids",
       "width": 800,

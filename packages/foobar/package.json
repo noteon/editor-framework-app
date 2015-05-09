@@ -16,7 +16,7 @@
   },
   "panels": {
     "panel": {
-      "view": "panel.html",
+      "frame": "panel.html",
       "type": "dockable",
       "title": "Foobar",
       "width": 500,

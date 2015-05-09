@@ -20,26 +20,6 @@ global.__app = {
         // TODO: load your profile, and disable packages here
 
         Editor.registerPackagePath( Editor.url('app://packages') );
-
-        Editor.MainMenu.add('Layout', {
-            label: 'Reset',
-            click: function () {
-                Editor.sendToMainWindow( 'editor:reset-layout', {
-                    'no-collapse': true,
-                    'row': false,
-                    'type': 'dock',
-                    'docks': [
-                        {
-                            'type': 'panel',
-                            'panels': [
-                                'package-manager.panel'
-                            ],
-                            'active': 0
-                        }
-                    ],
-                });
-            }
-        });
     },
 
     run: function () {
