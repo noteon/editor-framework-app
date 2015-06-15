@@ -1,11 +1,9 @@
-var gulp = require('gulp');
-var spawn = require('child_process').spawn;
-
-var Async = require('async');
-
 // require tasks
-require('./editor-framework/gulpfile');
+require('./editor-framework/tasks/download-shell');
 
+// var gulp = require('gulp');
+// var spawn = require('child_process').spawn;
+// var Async = require('async');
 // var sublist = [
 //     'editor-framework',
 // ];

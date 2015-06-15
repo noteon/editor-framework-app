@@ -1,5 +1,5 @@
 {
-  "name": "Editor Framework",
+  "name": "Editor Framework App",
   "private": true,
   "ignore": [
     "**/.*",
@@ -10,16 +10,21 @@
     "test"
   ],
   "dependencies": {
-    "fontawesome": "",
-    "pace": "",
+    "chai": "2.3.0",
+    "fontawesome": "4.3.0",
+    "iron-behaviors": "PolymerElements/iron-behaviors#^1.0.0",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#^1.0.0",
+    "iron-input": "PolymerElements/iron-input#^1.0.0",
+    "iron-selector": "PolymerElements/iron-selector#^1.0.0",
+    "mocha": "2.2.5",
     "mousetrap": "ccampbell/mousetrap#1.5.2",
     "numeral": "1.5.3",
-    "tween.js": "tweenjs/tween.js#r14",
-    "pixi": "3.0.2",
-    "d3": "3.5.5",
-    "web-animations-js": "web-animations/web-animations-js#master",
-    "layout": "Polymer/layout",
-    "polymer": "Polymer/polymer#0.9.0-rc.1"
+    "pace": "1.0.2",
+    "pixi": "3.0.6",
+    "polymer": "Polymer/polymer#^1.0.2",
+    "stats.js": "mrdoob/stats.js#master",
+    "svg.js": "1.0.1",
+    "web-animations-js": "web-animations/web-animations-js#master"
   },
   "devDependencies": {}
 }

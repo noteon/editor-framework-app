@@ -22,16 +22,10 @@ node_modules/
 bower_components/
 bin/
 ext/
-dist/
-compiler/
-apidocs/
-utils/api
+.settings/
 
 # webstorm
 .idea
 
 # log files
 *.log
-
-# test files
-.settings/
