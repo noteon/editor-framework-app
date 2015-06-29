@@ -1,3 +1,21 @@
 [submodule "editor-framework"]
 	path = editor-framework
 	url = https://github.com/fireball-x/editor-framework
+[submodule "builtin/console"]
+	path = builtin/console
+	url = https://github.com/fireball-packages/console
+[submodule "builtin/ipc-debugger"]
+	path = builtin/ipc-debugger
+	url = https://github.com/fireball-packages/ipc-debugger
+[submodule "builtin/package-manager"]
+	path = builtin/package-manager
+	url = https://github.com/fireball-packages/package-manager
+[submodule "builtin/tester"]
+	path = builtin/tester
+	url = https://github.com/fireball-packages/tester
+[submodule "builtin/ui-kit"]
+	path = builtin/ui-kit
+	url = https://github.com/fireball-packages/ui-kit
+[submodule "builtin/pixi-grid"]
+	path = builtin/pixi-grid
+	url = https://github.com/fireball-packages/pixi-grid
